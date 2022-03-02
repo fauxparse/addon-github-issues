@@ -11,13 +11,13 @@ const NoIssues: React.FC = () => {
     <Error>
       <h2>No issues found.</h2>
       <p>We looked for open issues tagged with:</p>
-      <p>
+      <div style={{ marginBottom: '1rem' }}>
         <TagList
           tags={labels.map((label) => (
             <Label key={label.name} {...label} />
           ))}
         />
-      </p>
+      </div>
       <NewIssueButton />
     </Error>
   );
