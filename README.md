@@ -18,6 +18,8 @@ GITHUB_TOKEN=your_auth_token
 ...where `your_auth_token` is a [Github personal access token](https://github.com/settings/tokens)
 with at least the `repo` scope. This will be used to access Github's GraphQL API to retrieve matching stories.
 
+Add `storybook-addon-github-issues` to the `addons` list in `.storybook/main.js`.
+
 In your `.storybook/preview.js`:
 
 ```javascript
