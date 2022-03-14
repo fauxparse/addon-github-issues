@@ -1,3 +1,20 @@
+# v0.0.8 (Tue Mar 15 2022)
+
+#### ⚠️ Pushed to `main`
+
+- munge dependencies ([@fauxparse](https://github.com/fauxparse))
+- fix nesting problem ([@fauxparse](https://github.com/fauxparse))
+- make design system a dependency ([@fauxparse](https://github.com/fauxparse))
+- fix install ([@fauxparse](https://github.com/fauxparse))
+- initial release ready? ([@fauxparse](https://github.com/fauxparse))
+- Initial commit ([@fauxparse](https://github.com/fauxparse))
+
+#### Authors: 1
+
+- Matt Powell ([@fauxparse](https://github.com/fauxparse))
+
+---
+
 # v0.0.7 (Wed Mar 02 2022)
 
 #### ⚠️ Pushed to `main`
