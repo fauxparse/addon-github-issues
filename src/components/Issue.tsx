@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from '@storybook/design-system';
-import { styled } from '@storybook/design-system/node_modules/@storybook/theming';
+import { styled } from '@storybook/theming';
 import { IssueOpenedIcon } from '@primer/octicons-react';
 
 export interface IssueProps {
