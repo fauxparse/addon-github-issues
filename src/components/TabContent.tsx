@@ -25,7 +25,7 @@ const TabInner = styled.div({
 const isCorrectConfiguration = (parameter: unknown): parameter is Configuration => {
   if (!isObject(parameter)) return false;
   if (!has(parameter, 'repository') || !has(parameter, 'token')) return false;
-  if (!(parameter as Configuration).repository.match(/^[^/]+\/[^/]+/)) return false;
+  if (!(parameter as Configuration).repository?.match(/^[^/]+\/[^/]+/)) return false;
   return true;
 };
 
