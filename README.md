@@ -1,4 +1,4 @@
-# Github issues for Storybook
+# GitHub issues for Storybook
 
 **Track issues logged against specific components in your repository**
 
@@ -15,8 +15,8 @@ GITHUB_REPOSITORY=username/repo
 GITHUB_TOKEN=your_auth_token
 ```
 
-...where `your_auth_token` is a [Github personal access token](https://github.com/settings/tokens)
-with at least the `repo` scope. This will be used to access Github's GraphQL API to retrieve matching stories.
+...where `your_auth_token` is a [GitHub personal access token](https://github.com/settings/tokens)
+with at least the `repo` scope. This will be used to access GitHub's GraphQL API to retrieve matching stories.
 
 Add `storybook-addon-github-issues` to the `addons` list in `.storybook/main.js`.
 
